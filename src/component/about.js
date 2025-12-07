@@ -25,7 +25,7 @@ export default function About() {
           </p>
 
           <Link to="/Projects" className="bg-white text-black px-6 py-3 rounded-2xl inline-block mt-6 transition-transform duration-300 hover:scale-110 cursor-pointer shadow-sm">
-            View Projects
+            View Project
           </Link>
         </div>
       </div>
