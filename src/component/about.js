@@ -1,4 +1,4 @@
-
+import { Link } from "react-router";
 
 export default function About() {
   const myImage = new URL('../../public/ritik.jpg',import.meta.url);
@@ -24,9 +24,9 @@ export default function About() {
             I craft clean, modern, and responsive web experiences with a strong focus on speed, usability, and thoughtful design. Growing further into the MERN-stack workflow, I continue creating scalable applications with React, HTML5, CSS, TailwindCSS, Bootstrap, and JavaScript that feel smooth, intuitive, and visually refined to bring ideas from concept into reality.
           </p>
 
-          <a href="/Projects" className="bg-white text-black px-6 py-3 rounded-2xl inline-block mt-6 transition-transform duration-300 hover:scale-110 cursor-pointer shadow-sm">
+          <Link to="/Projects" className="bg-white text-black px-6 py-3 rounded-2xl inline-block mt-6 transition-transform duration-300 hover:scale-110 cursor-pointer shadow-sm">
             View Projects
-          </a>
+          </Link>
         </div>
       </div>
 
