@@ -23,9 +23,9 @@ export default function Home() {
             <Link to="/Projects" className="border border-blue-400 bg-blue-400 px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               View My Work
             </Link>
-            <a className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
+            {/* <Link className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               My Resume
-            </a>
+            </Link> */}
           </div>
 
           <div className="flex gap-5 mt-8">
