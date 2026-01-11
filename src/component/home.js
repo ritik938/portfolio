@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 
+const resume = new URL("../assets/ritik-resume.pdf", import.meta.url);
+
 export default function Home() {
   return (
     <div className="bg-linear-to-r from-gray-800 via-gray-700 to-gray-600 min-h-screen flex justify-center">
@@ -23,9 +25,9 @@ export default function Home() {
             <Link to="/Projects" className="border border-blue-400 bg-blue-400 px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               View My Work
             </Link>
-            {/* <Link className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
+            <a href={resume} className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               My Resume
-            </Link> */}
+            </a>
           </div>
 
           <div className="flex gap-5 mt-8">
