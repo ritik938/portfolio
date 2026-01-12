@@ -25,7 +25,7 @@ export default function Home() {
             <Link to="/Projects" className="border border-blue-400 bg-blue-400 px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               View My Work
             </Link>
-            <a href={resume} className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
+            <a href={resume} download="ritik_resume.pdf" className="text-black border border-white bg-white px-5 py-3 rounded-3xl text-[16px] transition-transform hover:scale-110 cursor-pointer">
               My Resume
             </a>
           </div>
